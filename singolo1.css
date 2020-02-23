@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("assets/fonts/Lato-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Lato-Light";
+    src: url("assets/fonts/Lato-Light.ttf") format("truetype");
+}
+body {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 89px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo block */
+
+.logo {
+    font-family: "Lato-Bold";
+    width: 50%;
+    height: 100%;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 30px 0 32px 41px;
+    align-items: center;
+}
+
+.logo span {
+    color: #f06c64;
+}
+
+/* navigation block */
+
+.navigation {
+    width: 47.5%;
+    height: 100%;
+    padding: 34px 7px 32px 0;
+    font-size: 12.3px;
+    color: #211497;
+    font-family: "Lato-Bold";
+    font-weight: 400;
+    text-align: left;
+    line-height: 6px;
+    letter-spacing: 0.001em;
+}
+
+.navigation ul .first  {
+    list-style-type: none;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation ul li a {
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    color:#ffffff;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation ul li a:hover {
+    color:#f06c64;
+}
+
+.header_bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+}
+
+
+/* footer */
+
+.services_bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
